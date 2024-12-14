@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="./style.css" type="text/css">
+
+
+</head>
+
+<body>
+    <section class="main">
+        <section class="sub-main">
+            <section class="container">
+                <!-- nav section  -->
+                <nav>
+                    <a href="#" class="logo">
+                        <img src="./icon/book_2_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                        <h1> Newsbook</h1>
+                    </a>
+                    <ul class="nav-menu">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./About.html">About</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
+                        <li><a href="./premium.html">Premium</a></li>
+                        <li><a href="#" onclick="show()">Subscribe</a></li>
+                    </ul>
+                </nav>
+                <!-- noti section  -->
+                <section class="noti-main hide" id="show">
+                    <div class="noti-container">
+                        <div class="flex">
+                            <div> </div>
+                            <a href="#">
+                                <svg onclick="hide()" xmlns="http://www.w3.org/2000/svg" height="24px"
+                                    viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                                    <path
+                                        d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="logo-con">
+                            <img class="logo" src="./icon/book_2_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                        </div>
+                        <h3>NOTIFICATIONS</h3>
+                        <p>Enter your email underneath to be ahead in receiving updates <br>
+                            on fresh features.
+                        </p>
+                        <input type="email" placeholder="Your email address">
+                        <button type="button">Subscribe</button>
+                    </div>
+                </section>
+
+                <!-- hero section  -->
+                <section class="hero">
+                    <h2>
+                        From Local Advancements
+                        to Global Changes
+                    </h2>
+                    <div class="search">
+                        <p>Search resources...</p>
+                        <img src="./icon/search_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                    </div>
+
+                    <ul class="suggestion">
+                        <p>Top Suggestion:</p>
+                        <li><a href="./blog.html" id="all_btn">All</a></li>
+                        <li><a href="./blog.html" id="design_btn">Design</a></li>
+                        <li><a href="./blog.html" id="framer_btn">Framer</a></li>
+                        <li><a href="./blog.html" id="uiux_btn">UI/UX</a></li>
+                        <li><a href="./blog.html" id="social_btn">Social Media</a></li>
+                    </ul>
+                </section>
+
+                <!-- featured section  -->
+                <section class="featured">
+                    <div class="head">
+                        <h2>Featured Blogs</h2>
+                        <p>Browse more posts
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16px" width="20px" viewBox="0 -960 960 960" width="24px"
+                                fill="#e8eaed">
+                                <path d="m216-160-56-56 464-464H360v-80h400v400h-80v-264L216-160Z" />
+                            </svg>
+                        </p>
+                    </div>
+                    <div class="grid-12">
+                        <div class="cols-6">
+                            <div class="detail">
+                                <p class="bg-colo">Framer</p>
+                                <p>July 25, 2023</p>
+                            </div>
+                            <h3>The Future of Interactive Design with Framer</h3>
+                            <p class="read">Read article</p>
+                            <img src="https://framerusercontent.com/images/8ex6KIIZ101Eg24jVH0Zfx9JHU.png" alt="">
+                        </div>
+                        <div class="cols-6">
+                            <img src="https://framerusercontent.com/images/ZhjA3rX1AAYR4XsmLfASABQ0QM.png" alt="">
+                            <div class="detail mr-top">
+                                <p class="bg-colo">Dsign</p>
+                                <p>July 25, 2023</p>
+                            </div>
+                            <h3>The Art of Choosing the Perfect Font Introduction</h3>
+                            <p class="read">Read article</p>
+                        </div>
+                        <div class="cols-4">
+                            <img src="https://framerusercontent.com/images/FlaKdcIKodF43N5YO1gbsEGL6k.png" alt="">
+                            <div class="detail mr-top">
+                                <p class="bg-colo">Social Media</p>
+                                <p>July 25, 2023</p>
+                            </div>
+                            <h3>Social Media and <br>
+                                Influencer Marketing
+                            </h3>
+                            <p class="read">Read article</p>
+                        </div>
+                        <div class="cols-4">
+                            <img src="https://framerusercontent.com/images/JMctp0Xb5g6isRZcXu3MWaUYXsY.png" alt="">
+                            <div class="detail mr-top">
+                                <p class="bg-colo">UI/UX </p>
+                                <p>July 25, 2023</p>
+                            </div>
+                            <h3>Crafting the Perfect Web: <br>
+                                A Guide to UI/UX Design
+                            </h3>
+                            <p class="read">Read article</p>
+                        </div>
+                        <div class="cols-4">
+                            <img src="https://framerusercontent.com/images/NhK3MkPR1bjcYZevgWQYoxoytQ.png" alt="">
+                            <div class="detail mr-top">
+                                <p class="bg-colo">Framer </p>
+                                <p>July 25, 2023</p>
+                            </div>
+                            <h3>Advanced Techniques in <br>
+                                Framer: Unlocking the Full
+                            </h3>
+                            <p class="read">Read article</p>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+                <section class="subscribe">
+                    <h2>
+                        Get Notifications <br>
+                        For Each Fresh Post
+                    </h2>
+                    <div class="sub-item">
+                        <input type="text" placeholder="Your email address">
+                        <button>Subscribe</button>
+                    </div>
+                </section>
+
+                <section class="tab">
+                    <div class="grid-12">
+                        <div class="col-4 item">
+                            <a href="#" class="logo">
+                                <img src="./icon/book_2_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                <h1> Newsbook</h1>
+                            </a>
+                            <!-- <select name="#" id="#">
+                                        <option value="default" selected><img
+                                                src="./icon/language_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                            English
+            
+                                        </option>
+                                        <option value="frence">Frence</option>
+                                    </select> -->
+
+                        </div>
+                        <div class="col-2">
+                            <ul class="menu">
+                                <li><a href="./index.html" style="text-decoration: underline;">Home</a></li>
+                                <li><a href="./blog.html">Blog</a></li>
+                                <li><a href="./About.html">About</a></li>
+                                <li><a href="./contactus.html">Contact</a></li>
+                                <li><a href="./premium.html">Premium</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <ul class="menu">
+                                <li><a href="#">All</a></li>
+                                <li><a href="#">Design</a></li>
+                                <li><a href="#">Framer</a></li>
+                                <li><a href="#">UI/UX</a></li>
+                                <li><a href="#">Social Media</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <ul class="menu">
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Style Guide</a></li>
+                                <li><a href="#">Licences</a></li>
+                                <li><a href="#">Passworld</a></li>
+                                <li><a href="#">404</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <ul class="menu">
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Thrends</a></li>
+                                <li><a href="#">Medium</a></li>
+                                <li><a href="#">X</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <footer>
+                    <p>
+                        &copy; <span id="date">2022 </span>
+                        This is a Moise template powered by Framer.
+                    </p>
+                </footer>
+
+            </section>
+        </section>
+
+    </section>
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>

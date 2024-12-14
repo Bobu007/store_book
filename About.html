@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="./style.css" type="text/css">
+
+</head>
+
+<body>
+
+    <section class="main blur">
+
+            <section class="sub-main">
+                <section class="container">
+                    <!-- nav section  -->
+                    <nav>
+                        <a href="#" class="logo">
+                            <img src="./icon/book_2_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <h1> Newsbook</h1>
+                        </a>
+                        <ul class="nav-menu">
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="./About.html">About</a></li>
+                            <li><a href="./contactus.html">Contact</a></li>
+                            <li><a href="./premium.html">Premium</a></li>
+                            <li><a href="#" onclick="show()">Subscribe</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- noti section  -->
+                    <section class="noti-main hide" id="show">
+                        <div class="noti-container">
+                            <div class="flex">
+                                <div> </div>
+                                <a href="#">
+                                    <svg onclick="hide()" xmlns="http://www.w3.org/2000/svg" height="24px"
+                                        viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                                        <path
+                                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="logo-con">
+                                <img class="logo" src="./icon/book_2_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            </div>
+                            <h3>NOTIFICATIONS</h3>
+                            <p>Enter your email underneath to be ahead in receiving updates <br>
+                                on fresh features.
+                            </p>
+                            <input type="email" placeholder="Your email address">
+                            <button type="button">Subscribe</button>
+                        </div>
+                    </section>
+
+                    <!-- creators section  -->
+                    <section class="creators">
+                        <h1>
+                            Meet the Creators <br>
+                            Behind our Blog
+                        </h1>
+                        <div class="grid-12">
+                            <div class="col-6">
+                                <img src="https://framerusercontent.com/images/wSFUZJK6v10NXhoTysQcYpwhRe8.png?scale-down-to=1024"
+                                    alt="">
+                                <h2>
+                                    Liam Johnson
+                                </h2>
+                                <p>
+                                    Social Media
+                                </p>
+                            </div>
+                            <div class="col-6">
+                                <img src="https://framerusercontent.com/images/eUPSSmPsO9bYsBtLMdL0B6C1Ruo.png" alt="">
+                                <h2>
+                                    Liam Johnson
+                                </h2>
+                                <p>
+                                    Social Media
+                                </p>
+                            </div>
+                            <div class="col-6">
+                                <img src="https://framerusercontent.com/images/P61AvGHu6thxZtVfefjmJpuow0k.png?scale-down-to=1024"
+                                    alt="">
+                                <h2>
+                                    Liam Johnson
+                                </h2>
+                                <p>
+                                    Social Media
+                                </p>
+                            </div>
+                            <div class="col-6">
+                                <img src="https://framerusercontent.com/images/etQXdINRWXcSSYNTDDnSTQLZVHU.png?scale-down-to=1024"
+                                    alt="">
+                                <h2>
+                                    Liam Johnson
+                                </h2>
+                                <p>
+                                    Social Media
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- subscribe section  -->
+                    <section class="subscribe">
+                        <h2>
+                            Get Notifications <br>
+                            For Each Fresh Post
+                        </h2>
+                        <div class="sub-item">
+                            <input type="text" placeholder="Your email address">
+                            <button>Subscribe</button>
+                        </div>
+                    </section>
+
+                    <!-- tab section  -->
+                    <section class="tab">
+                        <div class="grid-12">
+                            <div class="col-4 item">
+                                <a href="#" class="logo">
+                                    <img src="./icon/book_2_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                    <h1> Newsbook</h1>
+                                </a>
+                                <!-- <select name="#" id="#">
+                                                            <option value="default" selected><img
+                                                                    src="./icon/language_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                                                English
+                                
+                                                            </option>
+                                                            <option value="frence">Frence</option>
+                                                        </select> -->
+
+                            </div>
+                            <div class="col-2">
+                                <ul class="menu">
+                                    <li><a href="./index.html">Home</a></li>
+                                    <li><a href="./blog.html">Blog</a></li>
+                                    <li><a href="./About.html" style="text-decoration: underline;">About</a></li>
+                                    <li><a href="./contactus.html">Contact</a></li>
+                                    <li><a href="./premium.html">Premium</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-2">
+                                <ul class="menu">
+                                    <li><a href="#">All</a></li>
+                                    <li><a href="#">Design</a></li>
+                                    <li><a href="#">Framer</a></li>
+                                    <li><a href="#">UI/UX</a></li>
+                                    <li><a href="#">Social Media</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-2">
+                                <ul class="menu">
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Style Guide</a></li>
+                                    <li><a href="#">Licences</a></li>
+                                    <li><a href="#">Passworld</a></li>
+                                    <li><a href="#">404</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-2">
+                                <ul class="menu">
+                                    <li><a href="#">Instagram</a></li>
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Thrends</a></li>
+                                    <li><a href="#">Medium</a></li>
+                                    <li><a href="#">X</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- footer section  -->
+                    <footer>
+                        <p>
+                            &copy; <span id="date">2022 </span>
+                            This is a Moise template powered by Framer.
+                        </p>
+                    </footer>
+
+                </section>
+            </section>
+
+
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

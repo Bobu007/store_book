@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="./style.css" type="text/css">
+
+</head>
+
+<body>
+
+    <section class="main">
+        <section class="sub-main">
+            <section class="container">
+                <!-- nav section  -->
+                <nav>
+                    <a href="#" class="logo">
+                        <img src="./icon/book_2_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                        <h1> Newsbook</h1>
+                    </a>
+                    <ul class="nav-menu">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./About.html">About</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
+                        <li><a href="./premium.html">Premium</a></li>
+                        <li><a href="#" onclick="show()">Subscribe</a></li>
+                    </ul>
+                </nav>
+                <!-- noti section  -->
+                <section class="noti-main hide" id="show">
+                    <div class="noti-container">
+                        <div class="flex">
+                            <div> </div>
+                            <a href="#">
+                                <svg onclick="hide()" xmlns="http://www.w3.org/2000/svg" height="24px"
+                                    viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                                    <path
+                                        d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="logo-con">
+                            <img class="logo" src="./icon/book_2_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                        </div>
+                        <h3>NOTIFICATIONS</h3>
+                        <p>Enter your email underneath to be ahead in receiving updates <br>
+                            on fresh features.
+                        </p>
+                        <input type="email" placeholder="Your email address">
+                        <button type="button">Subscribe</button>
+                    </div>
+                </section>
+
+                <section class="contact">
+                    <h2>
+                        Contact Us
+                    </h2>
+                    <div class="grid-12">
+                        <div class="cols-4">
+                            <img src="./icon/call_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>Call us: <br>
+                                950 (556) 232
+                            </p>
+                        </div>
+                        <div class="cols-4">
+                            <img src="./icon/home_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>Address: <br>
+                                123 Main Street Anytown, USA
+                            </p>
+                        </div>
+                        <div class="cols-4">
+                            <img src="./icon/alternate_email_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>Email us: <br>
+                                Example@gmail.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="grid-12">
+                        <div class="cols-6">
+                            <h3>
+                                Our location
+                            </h3>
+                            <div class="frame">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d488799.6787529756!2d95.85122022076128!3d16.838878394116257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1949e223e196b%3A0x56fbd271f8080bb4!2sYangon%2C%20Myanmar%20(Burma)!5e0!3m2!1sen!2sth!4v1734075330387!5m2!1sen!2sth"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+
+                        </div>
+                        <div class="cols-6">
+                            <h3>
+                                Send us a note
+                            </h3>
+                            <form action="">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" placeholder="Your Name">
+
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" placeholder="Your email address">
+
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" class="area" placeholder="Your idea"></textarea>
+
+                                <button type="button">Subscribe</button>
+
+                            </form>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <!-- subscribe section  -->
+                <section class="subscribe">
+                    <h2>
+                        Get Notifications <br>
+                        For Each Fresh Post
+                    </h2>
+                    <div class="sub-item">
+                        <input type="text" placeholder="Your email address">
+                        <button>Subscribe</button>
+                    </div>
+                </section>
+
+                <!-- tab section  -->
+                <section class="tab">
+                    <div class="grid-12">
+                        <div class="col-4 item">
+                            <a href="#" class="logo">
+                                <img src="./icon/book_2_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                <h1> Newsbook</h1>
+                            </a>
+                            <!-- <select name="#" id="#">
+                                                            <option value="default" selected><img
+                                                                    src="./icon/language_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                                                English
+                                
+                                                            </option>
+                                                            <option value="frence">Frence</option>
+                                                        </select> -->
+
+                        </div>
+                        <div class="col-2">
+                            <ul class="menu">
+                                <li><a href="./index.html">Home</a></li>
+                                <li><a href="./blog.html">Blog</a></li>
+                                <li><a href="./About.html">About</a></li>
+                                <li><a href="./contactus.html" style="text-decoration: underline;">Contact</a></li>
+                                <li><a href="./premium.html">Premium</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <ul class="menu">
+                                <li><a href="#">All</a></li>
+                                <li><a href="#">Design</a></li>
+                                <li><a href="#">Framer</a></li>
+                                <li><a href="#">UI/UX</a></li>
+                                <li><a href="#">Social Media</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <ul class="menu">
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Style Guide</a></li>
+                                <li><a href="#">Licences</a></li>
+                                <li><a href="#">Passworld</a></li>
+                                <li><a href="#">404</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <ul class="menu">
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Thrends</a></li>
+                                <li><a href="#">Medium</a></li>
+                                <li><a href="#">X</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- footer section  -->
+                <footer>
+                    <p>
+                        &copy; <span id="date">2022 </span>
+                        This is a Moise template powered by Framer.
+                    </p>
+                </footer>
+
+            </section>
+        </section>
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

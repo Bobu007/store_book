@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="./style.css" type="text/css">
+
+</head>
+
+<body>
+
+    <section class="main">
+        <section class="sub-main">
+            <section class="container">
+                <!-- nav section  -->
+                <nav>
+                    <a href="#" class="logo">
+                        <img src="./icon/book_2_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                        <h1> Newsbook</h1>
+                    </a>
+                    <ul class="nav-menu">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./About.html">About</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
+                        <li><a href="./premium.html">Premium</a></li>
+                        <li><a href="#" onclick="show()">Subscribe</a></li>
+                    </ul>
+                </nav>
+                <!-- noti section  -->
+                <section class="noti-main hide" id="show">
+                    <div class="noti-container">
+                        <div class="flex">
+                            <div> </div>
+                            <a href="#">
+                                <svg onclick="hide()" xmlns="http://www.w3.org/2000/svg" height="24px"
+                                    viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                                    <path
+                                        d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="logo-con">
+                            <img class="logo" src="./icon/book_2_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                        </div>
+                        <h3>NOTIFICATIONS</h3>
+                        <p>Enter your email underneath to be ahead in receiving updates <br>
+                            on fresh features.
+                        </p>
+                        <input type="email" placeholder="Your email address">
+                        <button type="button">Subscribe</button>
+                    </div>
+                </section>
+
+                <!-- price section  -->
+                <section class="price">
+                    <div class="grid-12">
+                        <div class="cols-6">
+                            <h2>
+                                Sign up for access <br>
+                                to exclusive articles
+                            </h2>
+                            <p>
+                                Escape from the repetitive cycle to explore diverse perspectives, <br>
+                                specialized subjects, and emerging trends that redefine your <br>
+                                perception of the world. Reveal undiscovered treasures and <br>
+                                expand your outlook with unique content unavailable elsewhere.
+                            </p>
+                            <h4>
+                                What's include in:
+                            </h4>
+                            <p>
+                                <img src="./icon/check_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                Full article access
+                            </p>
+                            <p>
+                                <img src="./icon/check_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                Weekly emails
+                            </p>
+                            <p>
+                                <img src="./icon/check_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                No advertisement
+                            </p>
+                        </div>
+                        <div class="cols-6 item">
+                            <h2>
+                                $ 9.99 USD
+                            </h2>
+                            <p>
+                                Stay up-to-date in this perpetually changeing <br>
+                                environment with our unparalleled exclusive content.
+                            </p>
+                            <h4>
+                                What's include in:
+                            </h4>
+                            <p>
+                                <img src="./icon/check_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                Full article access
+                            </p>
+                            <p>
+                                <img src="./icon/check_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                Weekly emails
+                            </p>
+                            <p>
+                                <img src="./icon/check_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                No advertisement
+                            </p>
+                            <button type="button">Subscribe now!</button>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- tab section  -->
+                <section class="tab">
+                    <div class="grid-12">
+                        <div class="col-4 item">
+                            <a href="#" class="logo">
+                                <img src="./icon/book_2_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                <h1> Newsbook</h1>
+                            </a>
+                            <!-- <select name="#" id="#">
+                                                            <option value="default" selected><img
+                                                                    src="./icon/language_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                                                English
+                                
+                                                            </option>
+                                                            <option value="frence">Frence</option>
+                                                        </select> -->
+
+                        </div>
+                        <div class="col-2">
+                            <ul class="menu">
+                                <li><a href="./index.html">Home</a></li>
+                                <li><a href="./blog.html">Blog</a></li>
+                                <li><a href="./About.html">About</a></li>
+                                <li><a href="./contactus.html">Contact</a></li>
+                                <li><a href="./premium.html" style="text-decoration: underline;">Premium</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <ul class="menu">
+                                <li><a href="#">All</a></li>
+                                <li><a href="#">Design</a></li>
+                                <li><a href="#">Framer</a></li>
+                                <li><a href="#">UI/UX</a></li>
+                                <li><a href="#">Social Media</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <ul class="menu">
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Style Guide</a></li>
+                                <li><a href="#">Licences</a></li>
+                                <li><a href="#">Passworld</a></li>
+                                <li><a href="#">404</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <ul class="menu">
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Thrends</a></li>
+                                <li><a href="#">Medium</a></li>
+                                <li><a href="#">X</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- footer section  -->
+                <footer>
+                    <p>
+                        &copy; <span id="date">2022 </span>
+                        This is a Moise template powered by Framer.
+                    </p>
+                </footer>
+
+            </section>
+        </section>
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
